@@ -29,7 +29,7 @@ This tool provides a simple, terminal-based interface to chat with any model ava
 
 ```sh
 git clone https://github.com/vroby65/ollama-cloud.git
-cd <ollama-cloud>
+cd ollama-cloud
 ````
 
 ### 2. Install dependencies
@@ -55,7 +55,7 @@ chmod +x ollama-cloud
 Run the interactive chat tool:
 
 ```sh
-ollama-cloud
+./ollama-cloud
 ```
 
 On the first launch, the script will ask for your **Ollama API Key**:
