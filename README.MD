@@ -28,8 +28,8 @@ This tool provides a simple, terminal-based interface to chat with any model ava
 ### 1. Clone the repository
 
 ```sh
-git clone https://github.com/<your-user>/<your-repo>.git
-cd <your-repo>
+git clone https://github.com/vroby65/ollama-cloud.git
+cd <ollama-cloud>
 ````
 
 ### 2. Install dependencies
@@ -45,6 +45,7 @@ Then install:
 
 ```sh
 pip install -r requirements.txt
+chmod +x ollama-cloud
 ```
 
 ---
@@ -54,7 +55,7 @@ pip install -r requirements.txt
 Run the interactive chat tool:
 
 ```sh
-python3 ollama_cloud_cli.py
+ollama-cloud
 ```
 
 On the first launch, the script will ask for your **Ollama API Key**:
